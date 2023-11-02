@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header {
+  background-color: #ffff00;
+  padding: 20px 0;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.header-nav a {
+  font-size: 20px;
+}
+.active {
+  color: #8b00ff;
+  font-weight: 700;
+}
+
+.header h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+}
